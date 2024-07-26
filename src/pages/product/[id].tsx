@@ -1,12 +1,11 @@
-import { useRouter } from "next/router";
+import { useRouter } from 'next/router'
 
-export default function Product() { 
-    
-    const { query } = useRouter();
+export default function Product() {
+  const { query } = useRouter()
 
-    return (
-        <>
-            <h1>Product</h1>
-        </>
-    );
+  return (
+    <>
+      <h1>Product</h1>
+    </>
+  )
 }
