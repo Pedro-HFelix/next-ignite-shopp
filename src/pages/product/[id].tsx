@@ -5,6 +5,7 @@ export default function Product() {
 
   return (
     <>
+      {query.id}
       <h1>Product</h1>
     </>
   )
